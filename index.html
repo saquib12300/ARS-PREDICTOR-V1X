@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby AI S1X Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Baby AI <span class="highlight">S1X Pro</span></h1>
+
+    <div class="period-container">
+        <p><strong>📅 Period:</strong> <span id="period"></span></p>
+        <p><strong>📊 Result:</strong> <span id="result"></span></p>
+    </div>
+
+    <div class="analysis">
+        <div class="box">
+            <p>Win Count</p>
+            <h2 id="winCount">0</h2>
+        </div>
+        <div class="box">
+            <p>Loss Count</p>
+            <h2 id="lossCount">0</h2>
+        </div>
+        <div class="box">
+            <p>Win %</p>
+            <h2 id="winPercentage">0%</h2>
+        </div>
+        <div class="box">
+            <p>Auto-Reverse</p>
+            <h2>Inactive</h2>
+        </div>
+    </div>
+
+    <div class="history">
+        <h2>History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Period</th>
+                    <th>Prediction</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+
+</body>
+</html>
